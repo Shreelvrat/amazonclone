@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/* Header */
+.navbar{
+    background-color: #000;
+    color: #fff;
+    height: 65px;
+    display: flex;
+    
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+.bor{
+    border: 2px solid transparent;
+}
+.bor:hover{
+        border: 2px solid magenta;
+}
+.nav-left{
+    display: flex;
+}
+#nav-add{
+    margin-right: 15px;
+}
+#nav-add-icon{
+    display: flex;
+}
+
+.nav-search{
+    height: 40px;
+    width: 445px;
+    margin-top: 15px;
+    background-color:#febd68 ;
+    border-radius: 4px;
+}
+
+.nav-search-select{
+    text-align: center;
+    width: 52px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
+}
+
+.nav-search-input{
+    width: 335px;
+    padding: 7px 10px 10px 0px;
+    border: none;
+    font-size: 1rem;
+    padding-left: 5px;
+}
+
+.nav-search-icon{
+    
+    color: black;
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border: none;
+}
+
+#para1{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#para2{
+    margin-left: 15px;
+    font-weight: 200px;
+}
+
+#ret{
+    margin: 15px 0px 0px 15px;
+}
+#ord{
+    margin: 0px 0px 0px 15px;
+    font-weight: 700;
+}
+
+#cart i{
+    font-size: 33.5px;
+}
+
+#txt{
+    margin: 29.5px 0px 0px 2px;
+    font-weight: 700;
+    color: #febd68;
+}
+/* Content */
+.content{
+    height: 550px;
+    position: absolute;
+    
+}
+
+.deals{
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 0
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.deal1{
+    margin-left: 5px;
+    margin-right: 7px;
+}
+#see{
+    color: rgb(0, 60, 255);
+}
+
+.deal2{
+    margin-right: 7px;
+    text-align: left;
+}
+
+.deal3{
+    text-align: center;
+}
+
+/* Footer */
+.footer{
+    height: 60pxpx;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+   
+}
