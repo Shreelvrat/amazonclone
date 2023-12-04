@@ -14,7 +14,8 @@
     
 }
 .logo{
-    height: 65px;
+    height: 63px;
+    width: 120px;
 }
 .border{
     border: 2px solid transparent;
